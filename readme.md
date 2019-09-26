@@ -29,3 +29,8 @@ El archivo requirements.txt tiene las libererias base que cargara docker en el c
 Para ejecutar la aplicación
 
     docker run -p 5000:5000 capitulo_1
+
+Correr la aplicación co Flask
+
+    export FLASK_APP=main.py
+    flask run
